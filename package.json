@@ -11,6 +11,7 @@
     "@testing-library/user-event": "^7.2.1",
     "chroma-js": "^2.1.0",
     "emoji-mart": "^3.0.0",
+    "gh-pages": "^3.1.0",
     "rc-slider": "^9.5.1",
     "react": "^16.13.1",
     "react-color": "^2.17.3",
@@ -31,6 +32,7 @@
     "heroku-postbuild": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "homepage": "http://sonish777.github.io/react-colors-app",
   "eslintConfig": {
     "extends": "react-app"
   },
