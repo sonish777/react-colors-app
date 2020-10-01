@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-colors-app/static/css/main.95110e0f.chunk.css",
-    "main.js": "/react-colors-app/static/js/main.44378f7a.chunk.js",
-    "main.js.map": "/react-colors-app/static/js/main.44378f7a.chunk.js.map",
+    "main.js": "/react-colors-app/static/js/main.bb3904ab.chunk.js",
+    "main.js.map": "/react-colors-app/static/js/main.bb3904ab.chunk.js.map",
     "runtime-main.js": "/react-colors-app/static/js/runtime-main.49d45705.js",
     "runtime-main.js.map": "/react-colors-app/static/js/runtime-main.49d45705.js.map",
     "static/css/2.2a4460b4.chunk.css": "/react-colors-app/static/css/2.2a4460b4.chunk.css",
     "static/js/2.a2ddbef1.chunk.js": "/react-colors-app/static/js/2.a2ddbef1.chunk.js",
     "static/js/2.a2ddbef1.chunk.js.map": "/react-colors-app/static/js/2.a2ddbef1.chunk.js.map",
     "index.html": "/react-colors-app/index.html",
-    "precache-manifest.3b3f9ccd68b19d00e9bdc222d17eb40e.js": "/react-colors-app/precache-manifest.3b3f9ccd68b19d00e9bdc222d17eb40e.js",
+    "precache-manifest.6062b54ae15f97f36f21be0d78c33b9a.js": "/react-colors-app/precache-manifest.6062b54ae15f97f36f21be0d78c33b9a.js",
     "service-worker.js": "/react-colors-app/service-worker.js",
     "static/css/2.2a4460b4.chunk.css.map": "/react-colors-app/static/css/2.2a4460b4.chunk.css.map",
     "static/css/main.95110e0f.chunk.css.map": "/react-colors-app/static/css/main.95110e0f.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.2a4460b4.chunk.css",
     "static/js/2.a2ddbef1.chunk.js",
     "static/css/main.95110e0f.chunk.css",
-    "static/js/main.44378f7a.chunk.js"
+    "static/js/main.bb3904ab.chunk.js"
   ]
 }
