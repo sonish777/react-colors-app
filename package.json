@@ -23,15 +23,14 @@
     "serve": "^11.3.2"
   },
   "scripts": {
-    "start": "serve build",
-    "dev": "react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
-  "homepage": "https//sonish777.github.io/react-colors-app",
+  "homepage": "http://sonish777.github.io/react-colors-app",
   "eslintConfig": {
     "extends": "react-app"
   },
