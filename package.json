@@ -23,16 +23,15 @@
     "react-sortable-hoc": "^1.11.0",
     "serve": "^11.3.2"
   },
+  "homepage": "https://sonish777.github.io/react-colors-app/",
   "scripts": {
-    "serve": "serve -s build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://sonish777.github.io/react-colors-app",
   "eslintConfig": {
     "extends": "react-app"
   },
