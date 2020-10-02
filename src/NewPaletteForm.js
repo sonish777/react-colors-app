@@ -99,6 +99,7 @@ class NewPaletteForm extends Component {
   }
 
   render() {
+    console.log(window.innerWidth);
     const { classes, maxColors, palettes } = this.props;
     const { open, colors } = this.state;
     const paletteIsFull = colors.length >= maxColors;
@@ -165,6 +166,7 @@ class NewPaletteForm extends Component {
             colors={colors}
             removeColor={this.removeColor}
             axis="xy"
+            pressDelay={window.innerWidth <= 576 ? 300 : 0}
             onSortEnd={this.onSortEnd}
           />
         </main>
