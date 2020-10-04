@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/react-colors-app/static/css/main.95110e0f.chunk.css",
-    "main.js": "/react-colors-app/static/js/main.0b598541.chunk.js",
-    "main.js.map": "/react-colors-app/static/js/main.0b598541.chunk.js.map",
+    "main.css": "/react-colors-app/static/css/main.10010a97.chunk.css",
+    "main.js": "/react-colors-app/static/js/main.22f29eec.chunk.js",
+    "main.js.map": "/react-colors-app/static/js/main.22f29eec.chunk.js.map",
     "runtime-main.js": "/react-colors-app/static/js/runtime-main.49d45705.js",
     "runtime-main.js.map": "/react-colors-app/static/js/runtime-main.49d45705.js.map",
-    "static/css/2.2a4460b4.chunk.css": "/react-colors-app/static/css/2.2a4460b4.chunk.css",
-    "static/js/2.98392ac9.chunk.js": "/react-colors-app/static/js/2.98392ac9.chunk.js",
-    "static/js/2.98392ac9.chunk.js.map": "/react-colors-app/static/js/2.98392ac9.chunk.js.map",
+    "static/css/2.0da342d8.chunk.css": "/react-colors-app/static/css/2.0da342d8.chunk.css",
+    "static/js/2.b52a86f4.chunk.js": "/react-colors-app/static/js/2.b52a86f4.chunk.js",
+    "static/js/2.b52a86f4.chunk.js.map": "/react-colors-app/static/js/2.b52a86f4.chunk.js.map",
     "index.html": "/react-colors-app/index.html",
-    "precache-manifest.0d6b4b103867f6a355b07c565f3f79cf.js": "/react-colors-app/precache-manifest.0d6b4b103867f6a355b07c565f3f79cf.js",
+    "precache-manifest.7478cc4f1e89d67d32f1d6b9d8411b7f.js": "/react-colors-app/precache-manifest.7478cc4f1e89d67d32f1d6b9d8411b7f.js",
     "service-worker.js": "/react-colors-app/service-worker.js",
-    "static/css/2.2a4460b4.chunk.css.map": "/react-colors-app/static/css/2.2a4460b4.chunk.css.map",
-    "static/css/main.95110e0f.chunk.css.map": "/react-colors-app/static/css/main.95110e0f.chunk.css.map",
-    "static/js/2.98392ac9.chunk.js.LICENSE.txt": "/react-colors-app/static/js/2.98392ac9.chunk.js.LICENSE.txt",
+    "static/css/2.0da342d8.chunk.css.map": "/react-colors-app/static/css/2.0da342d8.chunk.css.map",
+    "static/css/main.10010a97.chunk.css.map": "/react-colors-app/static/css/main.10010a97.chunk.css.map",
+    "static/js/2.b52a86f4.chunk.js.LICENSE.txt": "/react-colors-app/static/js/2.b52a86f4.chunk.js.LICENSE.txt",
     "static/media/bg.svg": "/react-colors-app/static/media/bg.8e7191a7.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.49d45705.js",
-    "static/css/2.2a4460b4.chunk.css",
-    "static/js/2.98392ac9.chunk.js",
-    "static/css/main.95110e0f.chunk.css",
-    "static/js/main.0b598541.chunk.js"
+    "static/css/2.0da342d8.chunk.css",
+    "static/js/2.b52a86f4.chunk.js",
+    "static/css/main.10010a97.chunk.css",
+    "static/js/main.22f29eec.chunk.js"
   ]
 }
