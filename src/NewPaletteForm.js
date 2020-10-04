@@ -182,7 +182,7 @@ class NewPaletteForm extends Component {
             axis="xy"
             pressDelay={window.innerWidth <= 576 ? 300 : 0}
             onSortEnd={this.onSortEnd}
-            distance={20}
+            distance={window.innerWidth > 576 ? 20 : 0}
           />
         </main>
       </div>
