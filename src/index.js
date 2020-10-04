@@ -5,8 +5,10 @@ import App from "./App";
 
 import { BrowserRouter } from "react-router-dom";
 
+// basename={window.location.pathname || ""}
+
 ReactDOM.render(
-  <BrowserRouter basename={window.location.pathname || ""}>
+  <BrowserRouter>
     <App />
   </BrowserRouter>,
   document.getElementById("root")

@@ -19,6 +19,7 @@ export default {
     /* background by SVGBackgrounds.com */
     backgroundColor: "#4362b5",
     backgroundImage: `url(${bg})`,
+
     // backgroundAttachment: "fixed",
   },
   container: {

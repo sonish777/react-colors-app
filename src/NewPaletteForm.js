@@ -11,6 +11,9 @@ import Button from "@material-ui/core/Button";
 import DraggableColorList from "./DraggableColorList";
 import { arrayMove } from "react-sortable-hoc";
 import ColorPickerForm from "./ColorPickerForm";
+
+import seedColors from "./seedColors";
+
 import styles from "./styles/NewPaletteFormStyles";
 
 class NewPaletteForm extends Component {
@@ -22,7 +25,7 @@ class NewPaletteForm extends Component {
     this.state = {
       open: true,
       color: "teal",
-      colors: this.props.palettes[0].colors,
+      colors: seedColors[0].colors,
       newColorName: "",
     };
     this.addNewColor = this.addNewColor.bind(this);
@@ -91,15 +94,22 @@ class NewPaletteForm extends Component {
   addRandomColor() {
     // PICK RANDOM COLOR FROM EXISTING PALETTES
     const allColors = this.props.palettes.map((p) => p.colors).flat();
-    let randNo = Math.floor(Math.random() * allColors.length);
-    const randomColor = allColors[randNo];
+    let randNo;
+    let randomColor;
+    let isColorDuplicate = true;
+    while (isColorDuplicate) {
+      randNo = Math.floor(Math.random() * allColors.length);
+      randomColor = allColors[randNo];
+      isColorDuplicate = this.state.colors.some(
+        (c) => c.name === randomColor.name
+      );
+    }
     this.setState({
       colors: [...this.state.colors, randomColor],
     });
   }
 
   render() {
-    console.log(window.innerWidth);
     const { classes, maxColors, palettes } = this.props;
     const { open, colors } = this.state;
     const paletteIsFull = colors.length >= maxColors;
@@ -127,7 +137,11 @@ class NewPaletteForm extends Component {
           </div>
           <Divider />
           <div className={classes.drawerContainer}>
-            <Typography variant="h4" gutterBottom>
+            <Typography
+              variant="h5"
+              style={{ letterSpacing: "0.5px", textTransform: "uppercase" }}
+              gutterBottom
+            >
               Design Your Palette
             </Typography>
             <div className={classes.buttons}>
@@ -168,6 +182,7 @@ class NewPaletteForm extends Component {
             axis="xy"
             pressDelay={window.innerWidth <= 576 ? 300 : 0}
             onSortEnd={this.onSortEnd}
+            distance={20}
           />
         </main>
       </div>

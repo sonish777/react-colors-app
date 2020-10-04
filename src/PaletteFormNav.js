@@ -43,6 +43,7 @@ class PaletteFormNav extends Component {
       palettes,
       handleSubmit,
     } = this.props;
+    const { formShowing } = this.state;
     return (
       <div className={classes.root}>
         <CssBaseline />
@@ -87,7 +88,7 @@ class PaletteFormNav extends Component {
             </Button>
           </div>
         </AppBar>
-        {this.state.formShowing && (
+        {formShowing && (
           <PaletteMetaForm
             palettes={palettes}
             handleSubmit={handleSubmit}
@@ -99,5 +100,4 @@ class PaletteFormNav extends Component {
   }
 }
 
-// export default withStyles(styles, { withTheme: true })(PaletteFormNav);
 export default withStyles(styles, { withTheme: true })(PaletteFormNav);

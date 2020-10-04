@@ -7,6 +7,7 @@ import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import { TextValidator, ValidatorForm } from "react-material-ui-form-validator";
 import { Picker } from "emoji-mart";
+
 import "emoji-mart/css/emoji-mart.css";
 
 class PaletteMetaForm extends Component {
@@ -42,6 +43,9 @@ class PaletteMetaForm extends Component {
   }
 
   savePalette(emoji) {
+    this.setState({
+      stage: "",
+    });
     this.props.handleSubmit({
       newPaletteName: this.state.newPaletteName,
       emoji: emoji.native,

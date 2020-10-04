@@ -46,10 +46,9 @@ const styles = (theme) => ({
     marginLeft: 0,
   },
   drawerContainer: {
-    width: "90%",
+    width: "80%",
     display: "flex",
     flexDirection: "column",
-    justifyContent: "center",
     alignItems: "center",
     height: "100%",
   },

@@ -42,7 +42,7 @@ class Palette extends Component {
     return (
       <div className={classes.palette}>
         <Navbar
-          level={this.state.level}
+          level={level}
           changeLevel={this.changeLevel}
           changeFormat={this.changeFormat}
           showSlider
