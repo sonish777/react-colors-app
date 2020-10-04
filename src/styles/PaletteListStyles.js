@@ -19,8 +19,7 @@ export default {
     /* background by SVGBackgrounds.com */
     backgroundColor: "#4362b5",
     backgroundImage: `url(${bg})`,
-
-    // backgroundAttachment: "fixed",
+    backgroundAttachment: "fixed",
   },
   container: {
     width: "60%",
@@ -42,6 +41,17 @@ export default {
     color: "white",
     "& a": {
       color: "white",
+      textDecoration: "none",
+      border: "2px solid white",
+      padding: "10px",
+      borderRadius: "20px",
+      backgroundColor: "rgba(67,98,181,0.6)",
+      transition: "background 0.4s ease",
+      "&:hover": {
+        color: "rgba(0,0,0,0.6)",
+        backgroundColor: "rgba(255,255,255,0.6)",
+        borderColor: "#4362b5",
+      },
     },
   },
   palettes: {
